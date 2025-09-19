@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1125px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  width: 595px;
+  height: 613px;
+  gap: 20px;
+}
+
+h1 {
+  width: 595px;
+  font-weight: 750;
+  height: 306px;
+  line-height: 102px;
+  font-size: 100px;
+}
+
+.brand-icons {
+  display: flex;
+  gap: 20px;
+}
+.hero-btn {
+  display: flex;
+  gap: 20px;
+}
+
+.shopping {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shop {
+  all: unset;
+  color: white;
+  background-color: #d01c28;
+  padding: 6px 16px;
+  height: 25px;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  border: 1px solid red;
+}
+
+.category {
+  all: unset;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 6px 16px;
+  height: 25px;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.category:hover {
+  background-color: black;
+  color: white;
+}
+
+p {
+  text-wrap: wrap;
+  width: 400px;
+}
+
+.shop:hover {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+}
+
+.img {
+  width: 530px;
+  height: 600px;
+}
+
+.hero-image {
+  width: 595px;
+  height: 613px;
+}
